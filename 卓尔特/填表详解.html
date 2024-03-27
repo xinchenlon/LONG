@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible"content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>
+填表详解
+</title>
+<link
+  href="https://fonts.googleapis.com/css?family=Open+Sans"
+  rel="stylesheet" />
+<link href="../各种CSS/闪光按钮.css" rel="stylesheet" />
+<style>
+html {font-family: "Open Sans", sans-serif;}
+body
+{margin:0;
+height:100vh;
+background-color:#DBBC7A;}
+/**{border:1px solid black;}*/
+.YY{box-shadow:rgb(0 0 0 / 20%) 0px 2px 1px -1px,rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px}
+.FLEX{display:flex;}
+.B{background-color:#F7F7F7;}
+.FLEX1{flex:1;}
+.COLUMN{flex-direction:column;}
+.MG8{margin:8px;}
+.MGR8{margin-right:8px;}
+.MGT8{margin-top:8px;}
+video{padding:5px 5px;height:350px;width:800px}
+.DH{padding:10px 20px;
+border-bottom:1px solid grey;
+font-size:26px;
+font-weight:800;
+color: #bbg;}
+h1{ text-align: center;
+color: #aa1;}
+.JC{font-size:20px;
+font-weight:800;
+color: #aa1;}
+/*当屏幕小于600px时要改变的CSS*/
+@media(max-width:600px)
+{.CBL{display:none;}
+.NRQ{flex-direction:column;}
+.SJQ{flex-direction:column;}
+.YQ{margin-left:8px;}
+.SJK{flex:auto;}}
+</style>
+</head>
+<body class="FLEX">
+<!-- 侧边栏 -->
+<div style="width:200px;height:1600px;z-index:2" class=" B YY">
+<!-- 头像栏 -->
+<div style="padding:10px;align-items:center;justify-content:flex-start; border-bottom:5px solid #999;" class="FLEX">
+<a href="http://chelsefashion.com/zh-CN/index.html " title="点击跳转CHELSE官网"><img 
+src="计划图/CHELSE.jpg" 
+width="160px" 
+height="100px" 
+alt=""/></a>
+<div style="margin-left:25px;" class="JC"></div>
+</div>
+<!-- 导航栏 -->
+<div class="FLEX1 ">
+<button class="btn DH" style="width:200px;height:200px" type="button">
+  <strong><a
+    href="../index.html"
+    title="点击回到首页"
+    >回到首页</a></strong>
+  <div id="container-stars">
+    <div id="stars"></div>
+  </div>
+  <div id="glow">
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+</button>
+
+<button class="btn DH" style="width:200px;height:200px" type="button">
+  <strong><a
+    href=""
+    title=""
+    >导航</a></strong>
+  <div id="container-stars">
+    <div id="stars"></div>
+  </div>
+  <div id="glow">
+    <div class="circle"></div>
+    <div class="circle"></div>
+  </div>
+</button>
+</div>
+</div>
+<!-- 主区域 -->
+<div class="FLEX1 FLEX COLUMN">
+<!-- 头部栏 -->
+<div style="height:60px;" class="B YY"></div>
+<!-- 内容区 -->
+<div class=" NRQ FLEX FLEX1">
+<!-- 左区 -->
+<div style="flex:2;align-items:center; " class="SJQ FLEX COLUMN MGR8 MGT8 MG8 ">
+<!-- 数据块 -->
+<div  style="height:500px;" class="SJK B YY  MGT8"><h1>外贸部</h1>
+<video poster="计划图/CHELSE.jpg" src="../视频/外贸落单填表详解.mp4" controls >
+</video>
+</div>
+<div style="height:500px" class="SJK  B YY  MGT8 "><h1>中山版房</h1>
+<video  poster="计划图/CHELSE.jpg" src="../视频/版房生产填表详解.mp4" controls >
+</video></div>
+<div style="height:500px" class="  B YY  MGT8"><h1>面料采购</h1>
+<video poster="计划图/CHELSE.jpg" src="../视频/面料采购填表详解.mp4" controls >
+</video>
+</div>
+</div>
+<!-- 右区 -->
+<div style="flex:2;align-items:center;" class="  YQ FLEX FLEX1 COLUMN MGR8 MGT8 MG8 ">
+<!-- 消息区 -->
+<div style="height:500px ;" class=" SJK B YY MGT8 "><h1>仓库面料</h1>
+<video poster="计划图/CHELSE.jpg" src="../视频/面料发料填表详解.mp4" controls >
+</video></div>
+<div style="height:500px;" class=" B YY MGT8"><h1>裁剪进度</h1>
+<video  poster="计划图/CHELSE.jpg" src="../视频/裁剪进度填表详解.mp4" controls >
+</video></div>
+<div style="height:500px;" class="B YY MGT8"><h1>纸样进度</h1>
+<video poster="计划图/CHELSE.jpg" src="../视频/纸样进度填表详解.mp4" controls >
+</video>
+</div>
+</div>
+</div>
+</div>
+</body>
+<html>
