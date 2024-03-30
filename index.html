@@ -36,17 +36,17 @@ font-weight:800;
 color: #aa1;}
 /*当屏幕小于600px时要改变的CSS*/
 @media(max-width:600px)
-{.CBL{display:none;}
+{.CBL{flex-direction:column;}
 .NRQ{flex-direction:column;}
 .SJQ{flex-direction:column;}
-.YQ{margin-left:8px}
-.SQK{margin:0 0 8px;
+.YQ{display:none;}
+.SJK{margin:0 0 8px;
 flex:auto;}}
 </style>
 </head>
 <body class="FLEX">
 <!-- 侧边栏 -->
-<div style="width:250px；z-index:2" class=" B YY">
+<div style="width:250px；z-index:2" class="CBL B YY">
 <!-- 头像栏 -->
 <div style="padding:10px;align-items:center;justify-content:flex-start; border-bottom:10px solid #DBBC7A;" class="FLEX">
 <a href="http://chelsefashion.com/zh-CN/index.html " title="点击跳转CHELSE官网"><img 
@@ -203,19 +203,19 @@ alt=""/></a>
 <!-- 头部栏 -->
 <div style="height:60px;z-index:1" class="B YY"></div>
 <!-- 内容区 -->
-<div style="overflow:auto;"class=" NRQ FLEX1 FLEX">
+<div style="overflow:auto;"class="  FLEX1 FLEX">
 <!-- 左区 -->
 <div style="flex:4" class="FLEX COLUMN MG8 ">
 <!-- 数据区 -->
-<div class="SJQ FLEX">
+<div class=" FLEX">
 <!-- 数据块 -->
-<div style="height:100px" class="SJK FLEX1 B YY MGR8"><ul><li>版房昨日裁剪数</li> <li>版房本周裁剪数</li> <li>版房本月裁剪数</li></ul></div>
-<div style="height:100px" class="SJK FLEX1 B YY MGR8"><ul><li>版房昨日完成数</li> <li>版房本周完成数</li> <li>版房本月完成数</li></ul></div>
-<div style="height:100px" class="SJK FLEX1 B YY MGR8"><ul><li>卓丽昨日裁剪数</li> <li>卓丽本周裁剪数</li> <li>卓丽本月裁剪数</li></ul></div>
-<div style="height:100px" class="SJK FLEX1 B YY MGR8"><ul><li>卓丽昨日完成数</li> <li>卓丽本周完成数</li> <li>卓丽本月完成数</li></ul></div>
+<div style="height:100px" class=" FLEX1 B YY MGR8"><ul><li>版房昨日裁剪数</li> <li>版房本周裁剪数</li> <li>版房本月裁剪数</li></ul></div>
+<div style="height:100px" class=" FLEX1 B YY MGR8"><ul><li>版房昨日完成数</li> <li>版房本周完成数</li> <li>版房本月完成数</li></ul></div>
+<div style="height:100px" class=" FLEX1 B YY MGR8"><ul><li>卓丽昨日裁剪数</li> <li>卓丽本周裁剪数</li> <li>卓丽本月裁剪数</li></ul></div>
+<div style="height:100px" class=" FLEX1 B YY MGR8"><ul><li>卓丽昨日完成数</li> <li>卓丽本周完成数</li> <li>卓丽本月完成数</li></ul></div>
 </div>
 <!-- 列表区 -->
-<div class="FLEX COLUMN">
+<div class="SJQ FLEX COLUMN">
 <!-- 列表项 -->
 <div style="height:700px" class="B YY MGT8">
 <a href="https://kdocs.cn/l/csF3r5kOKInE"><img 
