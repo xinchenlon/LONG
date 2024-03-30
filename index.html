@@ -37,20 +37,19 @@ color: #aa1;}
 /*当屏幕小于600px时要改变的CSS*/
 @media(max-width:600px)
 {.CBL{flex-direction:column;}
-.NRQ{display:none;}
-.SJQ{flex-direction:column;}
+.NRQ{flex-direction:column;}
+.SJQ{display:none;}
 .YQ{display:none;}
-.SJK{margin:0 0 8px;
-flex:auto;}}
+.SJK{flex:auto;}}
 </style>
 </head>
-<body class="FLEX ">
+<body class="FLEX CBL">
 <!-- 侧边栏 -->
-<div style="width:250px；z-index:2" class=" B YY ">
+<div style="width:250px；z-index:2" class=" B YY  ">
 <!-- 头像栏 -->
 <div style="padding:10px;align-items:center;justify-content:flex-start; border-bottom:10px solid #DBBC7A;" class="FLEX">
 <a href="http://chelsefashion.com/zh-CN/index.html " title="点击跳转CHELSE官网"><img 
-src="卓尔特/计划图/CHELSE.jpg" 
+src="卓尔特/计划图/CHELSE.png" 
 width="200px" 
 height="100px" 
 alt=""/></a>
@@ -157,8 +156,8 @@ alt=""/></a>
 
 <button class="btn DH" type="button">
   <strong><a
-    href="卓尔特/日报填写"
-    title="点击跳转卓尔特日报填写"
+    href="卓尔特/日报填写.html"
+    title=""
     >日报填写</a></strong>
   <div id="container-stars">
     <div id="stars"></div>
@@ -203,54 +202,57 @@ alt=""/></a>
 <!-- 头部栏 -->
 <div style="height:60px;z-index:1" class="B YY"></div>
 <!-- 内容区 -->
-<div style="overflow:auto;"class="  FLEX1 FLEX">
+<div style="overflow:auto;"class=" NRQ FLEX1 FLEX">
 <!-- 左区 -->
-<div style="flex:4" class="FLEX COLUMN MG8 ">
+<div style="flex:4" class=" FLEX COLUMN MG8 ">
 <!-- 数据区 -->
-<div class=" FLEX">
+<div class="SJQ FLEX">
 <!-- 数据块 -->
-<div style="height:100px" class="NRQ FLEX1 B YY MGR8"><ul><li>版房昨日裁剪数</li> <li>版房本周裁剪数</li> <li>版房本月裁剪数</li></ul></div>
-<div style="height:100px" class="NRQ FLEX1 B YY MGR8"><ul><li>版房昨日完成数</li> <li>版房本周完成数</li> <li>版房本月完成数</li></ul></div>
-<div style="height:100px" class="NRQ FLEX1 B YY MGR8"><ul><li>卓丽昨日裁剪数</li> <li>卓丽本周裁剪数</li> <li>卓丽本月裁剪数</li></ul></div>
-<div style="height:100px" class="NRQ FLEX1 B YY MGR8"><ul><li>卓丽昨日完成数</li> <li>卓丽本周完成数</li> <li>卓丽本月完成数</li></ul></div>
+<div style="height:100px" class=" FLEX1 B YY MGR8"><ul><li>版房昨日裁剪数</li> <li>版房本周裁剪数</li> <li>版房本月裁剪数</li></ul></div>
+<div style="height:100px" class=" FLEX1 B YY MGR8"><ul><li>版房昨日完成数</li> <li>版房本周完成数</li> <li>版房本月完成数</li></ul></div>
+<div style="height:100px" class=" FLEX1 B YY MGR8"><ul><li>卓丽昨日裁剪数</li> <li>卓丽本周裁剪数</li> <li>卓丽本月裁剪数</li></ul></div>
+<div style="height:100px" class=" FLEX1 B YY MGR8"><ul><li>卓丽昨日完成数</li> <li>卓丽本周完成数</li> <li>卓丽本月完成数</li></ul></div>
 </div>
 <!-- 列表区 -->
-<div class="SJQ SJK FLEX COLUMN">
+<div class="FLEX COLUMN SJK">
 <!-- 列表项 -->
-<div style="height:700px" class=" B YY MGT8">
-<a href="https://kdocs.cn/l/csF3r5kOKInE"><img 
+<div style="height:700px width:1200px" class=" B YY MGT8 SJK ">
+<a href="https://kdocs.cn/l/csF3r5kOKInE">
+<img style="display: inline-block; width: 100%; max-width: 100%; height: auto;"
+
 src=
 "卓尔特/计划图/今日生产计划.jpg"
-width="1200px" 
-title="点击进入今日生产计划表"/></a>
+ title="点击跳转今日生产计划表"/></a>
 </div>
 
-<div style="height:1000px" class=" B YY MGT8">
-<a href="https://kdocs.cn/l/cangI5XQuYc1 "><img 
+<div style="height:700px width:1200px" class=" B YY MGT8 SJK ">
+<a href="https://kdocs.cn/l/cangI5XQuYc1 ">
+<img style="display: inline-block; width: 100%; max-width: 100%; height: auto;"
 src=
-"卓尔特/计划图/本周生产计划.jpg"
-width="1200px" 
-title="点击进入本周生产计划表"/></a>
+"卓尔特/计划图/今日生产计划.jpg"
+title="点击跳转本周生产计划表"/></a>
 </div></div>
 
-<div style="height:1000px" class=" B YY MGT8">
-<a href="https://kdocs.cn/l/cmLCv7Z19ggS "><img 
+<div style="height:700px width:1200px" class="B  YY MGT8 SJK">
+<a href="https://kdocs.cn/l/cmLCv7Z19ggS ">
+<img style="display: inline-block; width: 100%; max-width: 100%; height: auto;"
 src=
-"卓尔特/计划图/本月生产计划.jpg"
-width="1200px" 
-title="点击进入本月生产计划表"/></a>
-</div></div></div>
+"卓尔特/计划图/今日生产计划.jpg"
+title="点击跳转本月生产计划表"/></a>
+</div></div></div></div>
 
-<div></div></div>
+
+ 
+
 
 <!-- 右区 -->
-<div style="flex:1" class=" YQ FLEX COLUMN MGR8 MG8">
+<div style="height:2000px width:300px" class=" YQ FLEX COLUMN MGR8 MG8">
 <!-- 提示区 -->
 <div style="height:150px;" class="B YY MGT8">提示区域</div>
 <!-- 消息区 -->
 <div style="height:300px;" class="B YY MGT8">重点事项：</div>
-<div style="height:300px;" class="B YY MGT8">重点事项：</div>
-<div style="height:300px;" class="B YY MGT8">重点事项：</div>
+<div style="height:300px ;" class="B YY MGT8">重点事项：</div>
+<div style="height:300px ;" class="B YY MGT8">重点事项：</div>
 <div style="height:300px;" class="B YY MGT8">重点事项：</div>
 <div style="height:300px;" class="B YY MGT8">重点事项：</div>
 </div>
