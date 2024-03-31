@@ -14,6 +14,11 @@ background-color:#DBBC7A;}
 .JC{font-size:48px;
 font-weight:800;
 color: #aa1;}
+.DH{
+border-bottom:1px solid grey;
+font-size:26px;
+font-weight:800;
+color: #bbg;}
 /*当屏幕小于600px时要改变的CSS*/
 @media(max-width:600px)
 {.CBL{flex-direction:column;}
