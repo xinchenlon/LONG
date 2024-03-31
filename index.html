@@ -14,6 +14,34 @@
   <link href="各种CSS/卓尔特.css" rel="stylesheet" />
 <style>
 html {font-family: "Open Sans", sans-serif;}
+body
+{margin:0;
+height:100vh;
+background-color:#DBBC7A;}
+/**{border:1px solid black;}*/
+.YY{box-shadow:rgb(0 0 0 / 20%) 0px 2px 1px -1px,rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px}
+.FLEX{display:flex;}
+.B{background-color:#F7F7F7;}
+.FLEX1{flex:1;}
+.COLUMN{flex-direction:column;}
+.MG8{margin:8px;}
+.MGR8{margin-right:8px;}
+.MGT8{margin-top:8px;}
+.DH{padding:35px 35px;
+border-bottom:1px solid grey;
+font-size:26px;
+font-weight:800;
+color: #bbg;}
+.JC{font-size:48px;
+font-weight:800;
+color: #aa1;}
+/*当屏幕小于600px时要改变的CSS*/
+@media(max-width:600px)
+{.CBL{flex-direction:column;}
+.NRQ{flex-direction:column;}
+.SJQ{display:none;}
+.YQ{display:none;}
+.SJK{flex:auto;}}
 </style>
 </head>
 <body class="FLEX CBL">
@@ -29,9 +57,9 @@ alt=""/></a>
 <div style="margin-left:25px;" class="JC">CHELSE</div>
 </div>
 <!-- 导航栏 -->
-<div class=" FLEX COLUMN">
+<div class="FLEX1">
 
-<button class="FLEX1 btn DH " type="button">
+<button class="btn DH" type="button">
   <strong><a
     href="卓尔特/生管部.html"
     title="点击跳转生管部。"
@@ -44,7 +72,7 @@ alt=""/></a>
     <div class="circle"></div>
   </div>
 </button>
-<button class="FLEX1 btn DH" type="button">
+<button class="btn DH" type="button">
   <strong><a
     href="卓尔特/外贸部.html"
     title="点击跳转外贸部。"
@@ -57,7 +85,7 @@ alt=""/></a>
     <div class="circle"></div>
   </div>
 </button>
-<button class="FLEX1 btn DH" type="button">
+<button class="btn DH" type="button">
   <strong><a
     href="卓尔特/设计部.html"
     title="点击跳转设计部。"
@@ -71,7 +99,7 @@ alt=""/></a>
   </div>
 </button>
 
-<button class="FLEX1 btn DH" type="button">
+<button class="btn DH" type="button">
   <strong><a
     href="卓尔特/技术品控部.html"
     title="点击跳转技术品控部。"
@@ -84,7 +112,7 @@ alt=""/></a>
     <div class="circle"></div>
   </div>
 </button>
-<button class="FLEX1 btn DH" type="button">
+<button class="btn DH" type="button">
   <strong><a
     href="卓尔特/中山版房.html"
     title="点击跳转中山版房。"
@@ -99,7 +127,7 @@ alt=""/></a>
 </button>
 
 
-<button class="FLEX1 btn DH" type="button">
+<button class="btn DH" type="button">
   <strong><a
     href="卓尔特/南雄卓丽.html"
     title="点击跳转南雄卓丽。"
@@ -113,7 +141,7 @@ alt=""/></a>
   </div>
 </button>
 
-<button class="FLEX1 btn DH" type="button">
+<button class="btn DH" type="button">
   <strong><a
     href="https://kdocs.cn/l/ckWdGtvDkWWH"
     title="点击跳转异常汇总。"
@@ -127,7 +155,7 @@ alt=""/></a>
   </div>
 </button>
 
-<button class="FLEX1 btn DH" type="button">
+<button class="btn DH" type="button">
   <strong><a
     href="卓尔特/日报填写.html"
     title=""
@@ -141,7 +169,7 @@ alt=""/></a>
   </div>
 </button>
 
-<button class="FLEX1 btn DH" type="button">
+<button class="btn DH" type="button">
   <strong><a
     href=""
     title=""
@@ -155,7 +183,7 @@ alt=""/></a>
   </div>
 </button>
 
-<button class="FLEX1 btn DH" type="button">
+<button class="btn DH" type="button">
   <strong><a
     href=""
     title=""
@@ -187,7 +215,7 @@ alt=""/></a>
 <div style="height:100px" class=" FLEX1 B YY MGR8"><ul><li>卓丽昨日完成数</li> <li>卓丽本周完成数</li> <li>卓丽本月完成数</li></ul></div>
 </div>
 <!-- 列表区 -->
-<div class="FLEX COLUMN ">
+<div class="FLEX COLUMN SJK">
 <!-- 列表项 -->
 <div style="height:700px width:1200px" class=" B YY MGT8 SJK ">
 <a href="https://kdocs.cn/l/csF3r5kOKInE">
@@ -219,15 +247,15 @@ title="点击跳转本月生产计划表"/></a>
 
 
 <!-- 右区 -->
-<div style="width:250px"  class=" YQ FLEX COLUMN MGR8 MG8">
+<div style="height:2000px width:300px" class=" YQ FLEX COLUMN MGR8 MG8">
 <!-- 提示区 -->
 <div style="height:150px;" class="B YY MGT8">提示区域</div>
 <!-- 消息区 -->
-<div  class="FLEX1 B YY MGT8">重点事项：</div>
-<div  class="FLEX1 B YY MGT8">重点事项：</div>
-<div  class="FLEX1 B YY MGT8">重点事项：</div>
-<div class="FLEX1 B YY MGT8">重点事项：</div>
-<div  class="FLEX1 B YY MGT8">重点事项：</div>
+<div style="height:300px;" class="B YY MGT8">重点事项：</div>
+<div style="height:300px ;" class="B YY MGT8">重点事项：</div>
+<div style="height:300px ;" class="B YY MGT8">重点事项：</div>
+<div style="height:300px;" class="B YY MGT8">重点事项：</div>
+<div style="height:300px;" class="B YY MGT8">重点事项：</div>
 </div>
 </div>
 </div>
